@@ -19,7 +19,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-# API Docs (Swagger / OpenAPI)
+## API Docs (Swagger / OpenAPI)
 
 Swagger UI:
 http://127.0.0.1:8000/api/docs/
@@ -31,7 +31,7 @@ OpenAPI Schema (JSON):
 http://127.0.0.1:8000/api/schema/?format=json
 
 
-# Run Tests
+## Run Tests
 `source .venv/bin/activate
 python3 manage.py test -v 2`
 
